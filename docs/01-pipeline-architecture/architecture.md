@@ -1,8 +1,6 @@
 # Deliverable 1: Eight-Stage CI/CD Pipeline Architecture
 **Project:** NovaPay Digital Bank — Zero-Downtime CI/CD Pipeline  
-**Author:** Gaurav Durge  
-**Status:** ✅ Complete  
-**Last Updated:** Day 2
+**Author:** Gaurav Durge
 
 ---
 
