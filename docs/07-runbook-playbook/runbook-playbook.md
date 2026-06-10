@@ -1,4 +1,4 @@
-# Deployment Runbook & Incident Response Playbook (runbook.md)
+# Deliverable 6: Deployment Runbook & Incident Response Playbook
 **Project:** NovaPay Digital Bank — Zero-Downtime CI/CD Pipeline  
 **Author:** Gaurav Durge
 
