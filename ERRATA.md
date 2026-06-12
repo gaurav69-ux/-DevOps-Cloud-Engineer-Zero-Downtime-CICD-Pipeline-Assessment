@@ -1,6 +1,6 @@
 # ERRATA.md — Deliberate Error Findings
 
-**Candidate:** [Gaurav Durge]
+**Candidate:** Gaurav Durge
 **Project:** Project 1A — DevOps & Cloud Engineer
 **Task:** Identify and correct 3 deliberate technical errors planted in the project document
 

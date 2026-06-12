@@ -1,7 +1,7 @@
 # Project 1A: DevOps & Cloud Engineer
 ## Zero-Downtime CI/CD Pipeline with Compliance Gates for Banking Applications
 
-**Candidate:** [Gaurav Durge]
+**Candidate:** Gaurav Durge
 **Track:** Cloud & DevOps Tech | CI/CD Pipeline Architecture
 **Organisation:** NovaPay Digital Bank (Fictional)
 **Timeline:** 15 Days | AI-Accelerated Innovation & Research Project
