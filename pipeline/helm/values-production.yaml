@@ -1,0 +1,43 @@
+# values-production.yaml — Production overrides only
+# Secrets injected at runtime via Vault — never stored here
+
+replicaCount: 3
+
+autoscaling:
+  enabled: true
+  minReplicas: 3
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 70
+  targetMemoryUtilizationPercentage: 80
+
+resources:
+  requests:
+    cpu: "500m"
+    memory: "1024Mi"
+  limits:
+    cpu: "2000m"
+    memory: "2048Mi"
+
+database:
+  host: "novapay-production-primary.cluster.ap-south-1.rds.amazonaws.com"
+  port: 5432
+  name: novapay
+
+redis:
+  cluster:
+    nodes:
+      - redis-0.novapay-shared:6379
+      - redis-1.novapay-shared:6379
+      - redis-2.novapay-shared:6379
+
+ingress:
+  hosts:
+    - host: api.novapay.in
+      paths: [{ path: /, pathType: Prefix }]
+  tls:
+    - secretName: novapay-tls-prod
+      hosts: ["api.novapay.in"]
+
+app:
+  profile: production
+  logLevel: WARN
